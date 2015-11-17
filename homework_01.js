@@ -17,7 +17,7 @@ return tot;
 //PER TIZIANO function ex_1_I(x){
 //	return sommaI(x)
 //    }
-}
+//}
 
 /*es 1 ricorsivo*/
 
