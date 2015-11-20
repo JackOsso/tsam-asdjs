@@ -18,16 +18,8 @@ Array.prototype.media = function () {
        return this.reduce((acc,x) => acc + x,0) / this.length;
     }
 }
-//9
-Array.prototype.revert = function () {
-    var b = [];
-    var c = this.length-1;
-    for (var i = 0; i < this.length; i++){
-        b[c] = this[i];
-        c = c -1;
-    }
-    return a=b;
-}
+
+
 //11
 Array.prototype.oddfirst = function () {
     var tarray = this.filter(x => (x%2 == 0));
